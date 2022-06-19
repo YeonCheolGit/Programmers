@@ -1,7 +1,7 @@
 import java.util.*;
 
 // soulution()에 입력된 파라미터들이 snake_case이므로 이를 따릅니다.
-class Solution {
+class take_report_result {
     public int[] solution(String[] id_list, String[] report, int k) {        
         Map<String, HashSet<String>> reported_reporters = initialize_reported_reporters(report);
         reported_reporters = add_reporter(report, reported_reporters);
